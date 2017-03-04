@@ -1,16 +1,21 @@
-html, body, * {
-  box-sizing:border-box;
-}
-.cf:before,
-.cf:after{
-  content:" ";
-  display:table;
-}
 
-.cf:after{
-  clear:both;
+nav{
+  border:1px solid black;
 }
+.WD{
+  width: 200px;
+
+div p{
+  margin:0 350px 0 0;
+}
+.top{
+  margin:0 0 0 125px;
+  position: static;
+}
+.flavors{
+  float:left;
+  position:relative;}
 
 .float-left{
-  
+
 }
