@@ -1,7 +1,12 @@
 html, body, * {
   box-sizing:border-box;
-  background-color: lightblue;
+  /*background-color: lightblue;*/
   font-family: sans-serif;
+}
+html, body{
+  background-color: lightblue;
+
+}
 }
 ul{
   list-style: none;
