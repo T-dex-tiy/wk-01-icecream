@@ -1,21 +1,133 @@
+html, body, * {
+  box-sizing:border-box;
+  background-color: lightblue;
+}
+ul{
+  list-style: none;
+}
 
+ul.left-side{
+  float: left;
+  margin: 0 0 0 0;
+  padding: 0;
+}
+li{
+  display:inline;
+}
+ul.right-side{
+  float:right;
+  margin: 0 10px 10px 0;
+}
+
+header{
+  text-align:center;
+  color:black;
+  font-weight: bolder;
+}
 nav{
+  font-size:2em;
+}
+h1{
+  text-align: left;
+  border: 3px soild lightpink;
+}
+hr {
+  margin: 50px;
+  clear: both;
+  border-color: #ccc;
+}
+
+.left{
+  width: 27%;
+  float: left;
+  margin: 10px;
+}
+.center{
+  display: block;
+  margin: 0px auto;
+  width: 27%;
+
+}
+.right{
+width: 27%;
+float: right;
+margin: auto;
+
+}
+footer{
+  text-align: center;
+  padding: 1px;
+  margin:1px;
+  border:1px;
+  position: relative;
+
+}
+
+.cf:before,
+.cf:after{
+  content:" ";
+  display:table;
+}
+
+.cf:after{
+  clear:both;
+}
+a:link{
+  color:gold;
+
+}
+a:visited{
+  color:green;
+
+}
+a:hover{
+  background-color: black;
+  color:white;
+}
+a:focus{
+  font-style:italic;
+}
+a:active{
+ text-decoration: line-through;
+}
+
+
+
+
+
+------------------
+
+
+
+/*nav{
   border:1px solid black;
 }
-.WD{
-  width: 200px;
 
-div p{
-  margin:0 350px 0 0;
+.thirds{
+  background: yellow;
+  border:1px solid red;
+  float:left;
+
 }
-.top{
+footer{
+  position: static;
+}
+
   margin:0 0 0 125px;
   position: static;
 }
 .flavors{
+  background: lightgreen;
+  border:1px solid green;
   float:left;
-  position:relative;}
+  position:relative;
+  float: left;
+}
 
 .float-left{
+  float:left;
+  background: lightblue;
+  border: 1px solid blue;
+  margin: 0 300px 0 125px;
 
-}
+}*/
