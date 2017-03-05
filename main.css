@@ -1,33 +1,40 @@
 html, body, * {
   box-sizing:border-box;
   background-color: lightblue;
+  font-family: sans-serif;
 }
 ul{
   list-style: none;
 }
-
 ul.left-side{
   float: left;
   margin: 0 0 0 0;
   padding: 0;
 }
+
 li{
   display:inline;
 }
 ul.right-side{
-  float:right;
-  margin: 0 10px 10px 0;
-}
+  text-align: right;
+  /*margin: 0 10px 10px 0;*/
+  font-size: 0.5em;
 
+}
+nav img{
+  background-color: inherit;
+  float:left;
+}
 header{
   text-align:center;
   color:black;
   font-weight: bolder;
+  border: 5px dotted hotpink;
 }
 nav{
   font-size:2em;
 }
-h1{
+h1 {
   text-align: left;
   border: 3px soild lightpink;
 }
@@ -52,7 +59,13 @@ hr {
 width: 27%;
 float: right;
 margin: auto;
-
+}
+tr.odd {
+  background-color:blue;
+}
+.banner{
+  width:100%;
+  height:auto;
 }
 footer{
   text-align: center;
@@ -73,12 +86,10 @@ footer{
   clear:both;
 }
 a:link{
-  color:gold;
-
+  color:hotpink;
 }
 a:visited{
-  color:green;
-
+  color:pink;
 }
 a:hover{
   background-color: black;
