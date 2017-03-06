@@ -5,9 +5,12 @@ html, body, * {
 }
 html, body{
   background-color: lightblue;
+}
+.logo{
+  height:50px;
+  width: auto;
+}
 
-}
-}
 ul{
   list-style: none;
 }
@@ -68,6 +71,10 @@ margin: auto;
 tr.odd {
   background-color:blue;
 }
+tr.even{
+  background-color:red;
+
+}
 .banner{
   width:100%;
   height:auto;
@@ -78,7 +85,6 @@ footer{
   margin:1px;
   border:1px;
   position: relative;
-
 }
 
 .cf:before,
